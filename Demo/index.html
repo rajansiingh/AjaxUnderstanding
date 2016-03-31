@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<title>Demo Ajax</title>
+<body>
+    <script>
+	function myCallback(data){
+	 console.log(data.return);
+	};
+	function xmlCallback(data){
+	 console.log(data);
+	};
+	</script>
+	<script type="text/javascript" src="labelling.json?jsoncallback=myCallback"></script>
+	<script type="text/javascript" src="sample.xml?callback=xmlCallback"></script>
+	Press F12 or open console from developer tools.
+</body>
+</html>

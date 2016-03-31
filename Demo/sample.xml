@@ -1,0 +1,1 @@
+xmlCallback("<user><userid>12345</userid><name>James</name><email>example@example.com</email></user>")
